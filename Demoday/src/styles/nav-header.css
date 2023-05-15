@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.header-principal {
+  position: absolute;
+  background: linear-gradient(to right, #190c5e, #371166);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  font-family: Nunito;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.header-principal.active {
+  background: #300B51;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-principal ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-principal ul li {
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.header-principal ul li:last-child {
+  background-color: rgb(68, 48, 180);
+  transition: .3s;
+}
+
+.header-principal ul li:last-child:hover {
+  transform: scale(1.1);
+}
+
+.header-principal ul li a {
+  display: inline-block;
+  position: relative;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-principal ul li a.underline::after {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: " ";
+  width: 0;
+  height: 3px;
+  background-color: #FFF;
+  transition: 0.4s;
+}
+
+.header-principal ul li a:hover::after {
+  width: 99%;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#Material-principal{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color: #14015b;
+    background-image: url(/src/assets/img/material-img/estrelas-de-fundo.png);
+}
+
+.mat-blue{
+    color: #05CCE6;
+}
+
+.mat-yellow{
+    color: #FBC02D;
+}
+
+.mat-red{
+    color: #E50914;
+}
+
+.Materi-titulo{
+    
+}
+
+.Materi-titulo h1{
+    width: 200px;
+    text-align: center;
+    font-family: inter;
+    font-size: 48px;
+}
+
+.livros-principal img{
+    width: 50%;
+}

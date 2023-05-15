@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+#Principal{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    font-family: Nunito;
+    color: #fff;
+    padding-bottom: 100px;
+    padding-top: 82px;
+}
+
+.Infos{
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Yellow{
+    color: #DEF00E;
+    font-size: 45px;
+}
+
+.Blue{
+    color: #3BFFFF;
+    font-size: 45px;
+}
+
+.Pink{
+    color: #DC30B6;
+    font-size: 45px;
+}
+
+.Gold{
+    color:#FAB84B;
+}
+
+.Met-image{
+    margin-top: 90px;
+    
+}
+
+.Met-image img{
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0px 10px 10px 0px ;
+}
+
+.btn-sobre{
+    height: 37px;
+    font-size: 16px;
+    font-family: Nunito;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: dashed 1px #fff;
+    cursor: pointer;
+}
+
+.btn-acesso{
+    height: 37px;
+    width: 240px;
+    font-size: 16px;
+    font-family: Nunito;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 1.2px;
+    background-color: #3DBDB8;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  
+}
+
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin: auto;
+}
+
+#Metodologia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+}
+
+.titulo{
+    margin: auto;
+    font-family: Nunito;
+    color: #FAB84B;
+    font-size: 46px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.Cont-meto{
+    display: flex;
+}
+
+.Info-meto{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.dados{
+    display: flex;
+    font-family: Nunito;
+    color: #fff;
+    width: 800px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.dados img{
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 14%;
+    height: 100%;
+}
+
+.papo{
+    display: flex;
+    font-family: Nunito;
+    color: #fff;
+    width: 750px;
+    font-size: 25px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.papo img{
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 14%;
+    height: 100%;
+}
+
+.img-meto img{
+    width: 100%;
+}
+
+#Beneficios{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    text-align: center;
+}
+
+.bene-infos{
+    margin: auto;
+}
+
+.bene-infos h2{
+    font-family: Nunito;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+
+.bene-compo{
+    margin-top: 100px;
+}
+
+.bene-compo img{
+    width: 80%;
+}
+
+#Ajuda{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    text-align: center;
+}
+
+.ajuda-info{
+    font-size: 32px;
+    color: #FAB84B;
+    font-family: Nunito;
+}
+
+.ajuda-info p{
+    margin: auto;
+    font-size: 28px;
+    color: #fff;
+    width: 500px;
+    padding-top: 40px;
+}
+
+.ajuda-contato{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 32px;
+    color: #FAB84B;
+    font-family: Nunito;
+    padding-top: 40px;
+}
+
+.ajuda-contato li{
+    padding-top: 10px;
+}
+
+.ajuda-contato img{
+    align-items: center;
+    width: 5%;
+    height: 3%;
+}
+
+.ajuda-central{
+    margin: auto;
+    font-size: 28px;
+    color: #fff;
+    font-family: Nunito;
+    width: 70%;
+    padding-top: 70px;
+}
+
+.btn-central{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 400px;
+    height: 70px;
+    font-family: Nunito;
+    color: #fff;
+    background-image: linear-gradient(to right, #311063, #55228BC4);
+    border-radius: 50px;
+    border: solid 1px #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#Newsletter{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    text-align: center;
+}
+
+.News-email{
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    font-family: Nunito;
+}
+
+.News-forms{
+    padding-top: 40px;
+    width: 950px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+
+
+#Txtemail{
+    width: 550px;
+    height: 60px;
+    border-radius: 28px;
+    border: solid 1px #d0d0d0;
+    color: #7C7777;
+    font-family: Nunito;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#InsBtn{
+    color: #7C7777;
+    background-color: #fff;
+    border: none;
+    border-radius: 28px;
+    height: 60px;
+    width: 200px;
+    font-size: 26px;
+    font-family: Nunito;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 300px;
+    color: #fff;
+    background: linear-gradient(to bottom, #12005C 0%, #2F084E 100%);
+}
+
+.Links{
+    font-family: Nunito;
+    font-size: 22px;
+}
+
+footer li{
+    padding-top: 20px;
+}
+
+footer a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: underline;
+}

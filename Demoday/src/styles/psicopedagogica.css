@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+body{
+    background-color: #14005B;
+}
+
+#home_psicopedagogica{
+    background-image: url(../assets/img/fundo.jpeg);
+    background-size: cover;
+    height: calc(100vh - 82px);
+    width: 100%;
+}
+
+.div_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo_home{
+    padding: 100px 0px 30px 150px;
+}
+
+.titulo_home h1{
+    font-family: 'Inter', sans-serif;
+    color: #FAB84B;
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 2px 2px #000000;
+    margin-top: 50px;
+}
+
+.titulo_home h1 span{
+    color: #fff;
+}
+
+.titulo_home .saiba_mais{
+    padding: 15px 60px;
+    background-color: #FB9C00;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 2px #000000ae;
+    margin-right: 30px;
+}
+
+.titulo_home .saiba_mais:hover{
+    background-color: #e68f04;
+    cursor: pointer;
+}
+
+.titulo_home .Agendamento{
+    padding: 15px 55px;
+    background-color: #05CCE6;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 2px #000000ae;
+    margin-top: 100px;
+}
+
+.titulo_home .Agendamento:hover{
+    background-color: #05bed6;
+    cursor: pointer;
+}
+
+.img_home{
+    padding: 80px 60px 50px 50px;
+}
+
+.img_home img{
+    width: 400px;
+    height: 440px;
+}
+
+/*     Seção terapia     */
+
+
+#secao_terapia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.secao_texto{
+    width: 50%;
+    padding: 5%;
+}
+
+.secao_texto p{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.secao_img{
+    width: 50%;
+    padding: 5% ;
+}
+
+.secao_img img{
+    width: 500px;
+    height: 300px;
+}
+
+.A{
+    color: #00B8F2;
+}
+
+.P{
+    color: #B24FFF;
+}
+
+.C{
+    color: #FBFF49;
+}
+
+.S{
+    color: #5BFF62;
+}
+
+.T{
+    color: #FF4B4B;
+}
+
+.AA{
+    color: #FFBA68;
+}
+
+.R{
+    color: #A58DFF;
+}
+
+.TT{
+    color: #EFFF32;
+}
+
+
+/*     Seção Agendamento     */
+
+
+#secao_agendamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.divdeagendamento{
+    width: 30%;
+}
+
+.divdeagendamento button{
+    padding: 20px 60px;
+    background-color: #05CCE6;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 2px #000000ae;
+    margin-top: 120px;
+    margin-left: 14%;
+}
+
+.divdeagendamento button:hover{
+    background-color: #07b8d0;
+    cursor: pointer;
+}
+
+.img_checkin{
+    width: 30%;
+}
+
+.img_checkin img{
+    width: 300px;
+    height: 250px;
+    margin-top: 120px;
+}
+
+.calendario{
+    width: 30%;
+}
+
+.calendario img{
+    width: 290px;
+    height: 250px;
+    margin-left: 20px;
+}

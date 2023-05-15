@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+#Metodologia{
+    background-image: linear-gradient(to right, #190c5e, #371166);
+}
+.titulo{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 450px;
+    font-family: Nunito;
+    color: #FAB84B;
+    font-size: 38px;
+}
+.politica-de-privacidade {
+    text-align: justify;
+    padding-top: 400px;
+    padding-left: 200px;
+    position: relative;
+    width: 1000px;
+    height: 2500px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 300px;
+    color: #fff;
+    background: linear-gradient(to bottom, #12005C 0%, #2F084E 100%);
+}
+
+.Links{
+    font-family: Nunito;
+    font-size: 22px;
+}
+
+footer li{
+    padding-top: 20px;
+}
+
+footer a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* scrollbar */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
